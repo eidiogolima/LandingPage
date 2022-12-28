@@ -2,10 +2,10 @@ import React from 'react'
 import Logo from '../../../assets/logo.svg'
 const Header = () => {
   return (
-    <header className='cor-b-1 '>
+    <header className='cor-b-1 shadow-sm'>
       <nav className="navbar navbar-expand-md bg-light d-flex container-md-fluid container-lg p-2 justify-content-between">
         <a href="/">
-          <img src={Logo} alt="" />
+          <img width ='187px' height='23px' src={Logo} alt="" />
         </a>
 
         <button
@@ -27,18 +27,18 @@ const Header = () => {
           <ul className="d-flex navbar-nav">
          
 
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <a className="nav-link" href="/">
                 Deferencial
               </a>
-            </li>
-            <li className="nav-item">
+            </li> */}
+            {/* <li className="nav-item">
               <a className="nav-link" href="/">
                 Duvidas Frequentes
               </a>
-            </li>
-            <li className="nav-item shadow">
-              <a className="nav-link btn btn-primary text-white" href="/">
+            </li> */}
+            <li className="nav-item shadow-sm">
+              <a className="nav-link btn btn-primary text-white "target="_blank"rel="noreferrer noopener" href="https://wa.me/5511915647291">
                 CONTATO
               </a>
             </li>

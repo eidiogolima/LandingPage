@@ -1,6 +1,9 @@
 import React from 'react';
 import Head from '../Global/Head';
 import Introducao from '../All/Introducao';
+import Diferencial from '../All/Diferencial';
+import Projetos from '../All/Projetos';
+import Planos from '../All/Planos';
 
 const Home = () => {
   return (
@@ -13,6 +16,9 @@ const Home = () => {
       />
 
       <Introducao/>
+      <Diferencial/>
+      <Projetos/>
+      <Planos/>
 
     </section>
 
