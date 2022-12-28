@@ -73,6 +73,7 @@ const Introducao = () => {
             className="mb-4 shadow rounded"
             src={Video}
             width="100%"
+            controls = "true"
           ></video>
 
           <div className='text-center mb-4 c'>
