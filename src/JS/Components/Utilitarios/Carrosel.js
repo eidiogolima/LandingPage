@@ -10,13 +10,13 @@ const Carrosel = ({...props}) => {
       <h3 className='ms-3 mb-3 cor-3 title'>{props.title}</h3>
       <div className="carousel-inner rounded shadow">
         <div className="carousel-item active">
-          <img width="1400px" height='965px' src={props.image1} className="d-block w-100" alt={props.alt1} />
+          <img  src={props.image1} className="d-block w-100" alt={props.alt1} />
         </div>
         <div className="carousel-item">
-          <img width="1400px" height='961px' src={props.image2} className="d-block w-100" alt={props.alt2} />
+          <img  src={props.image2} className="d-block w-100" alt={props.alt2} />
         </div>
         <div className="carousel-item">
-          <img width="1400px" height='961px' src={props.image3} className="d-block w-100" alt={props.alt3} />
+          <img  src={props.image3} className="d-block w-100" alt={props.alt3} />
         </div>
 
        
