@@ -6,12 +6,6 @@ const Introducao = () => {
   const [mins, setMins] = React.useState('');
   const [seconds, setSeconds] = React.useState('');
 
-  const video = document.body.querySelector('video');
-
-  function play() {
-    video.play();
-  }
-
   const countDown = () => {
     const newYear = '01 jan 2023';
     const objective = new Date(newYear);
