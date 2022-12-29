@@ -37,10 +37,10 @@ const Diferencial = () => {
           
           
 
-          <div className="col text-center cor-b-p1 shadow-sm rounded p-2 position-relative z-3 estoura">
+          <div className="col text-center cor-b-12 shadow rounded p-2 position-relative z-3 estoura">
             <img width="78px" height='54px' className= "mb-3" src={Vivivel} alt="" />
-            <h2 className='cor-1'>Funcional</h2>
-            <p className='cor-1'>
+            <h2 className='cor-2'>Funcional</h2>
+            <p className='cor-4'>
               Não basta apenas ter um site, o site tem que se posicionar bem nas
               buscar do google e para isso o prestador de serviço tem que
               conhecer bem a estrutura de um site e SEO também como marketing

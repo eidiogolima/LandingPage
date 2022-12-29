@@ -1,5 +1,5 @@
 import React from 'react';
-
+import {Link} from 'react-router-dom'
 import Check from '../../../assets/icons/check.svg';
 import CheckBlack from '../../../assets/icons/check-black.svg';
 
@@ -129,7 +129,7 @@ const Planos = () => {
         </div>
 
         <div className='text-center'>
-          <a className='mt-4 btn btn-primary p-3' target="_blank"rel="noreferrer noopener" href="https://wa.me/5511915647291">SOLICITAR ORÇAMENTO</a>
+          <Link to = "/contato" className='mt-4 btn btn-primary p-3'>SOLICITAR ORÇAMENTO</Link>
         </div>
       </div>
     </section>

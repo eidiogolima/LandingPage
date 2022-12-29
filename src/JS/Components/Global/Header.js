@@ -2,7 +2,7 @@ import React from 'react'
 import Logo from '../../../assets/logo.svg'
 const Header = () => {
   return (
-    <header className='cor-b-1 shadow-sm'>
+    <header className='cor-b-1 shadow'>
       <nav className="navbar navbar-expand-md bg-light d-flex container-md-fluid container-lg p-2 justify-content-between">
         <a href="/">
           <img width ='187px' height='23px' src={Logo} alt="" />
@@ -38,7 +38,7 @@ const Header = () => {
               </a>
             </li> */}
             <li className="nav-item shadow-sm">
-              <a className="nav-link btn btn-primary text-white "target="_blank"rel="noreferrer noopener" href="https://wa.me/5511915647291">
+              <a className="nav-link btn btn-primary text-black fw-semibold "target="_blank"rel="noreferrer noopener" href="https://wa.me/5511915647291">
                 CONTATO
               </a>
             </li>

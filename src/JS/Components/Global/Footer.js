@@ -1,5 +1,6 @@
 import React from 'react'
 import Logo from '../../../assets/logo-white.svg'
+import { Link } from 'react-router-dom'
 const Footer = () => {
   return (
     <footer className='cor-b-12 py-sm-6 py-4'>
@@ -23,7 +24,7 @@ const Footer = () => {
               <ul className=''>
                 <li className='cor-4 p-2'><a target="_blank"rel="noreferrer noopener" href="https://wa.me/5511915647291">+55 11 91564-7291</a></li>
                 <li className='cor-4 p-2'><a target="_blank"rel="noreferrer noopener" href="mailto:eidiogoadm@gmail.com">eidiogoadm@gmail.com</a></li>
-                <li className='cor-p1 p-2'><a target="_blank"rel="noreferrer noopener" href="https://wa.me/5511915647291">solicitar orçamento</a></li>
+                <li className='cor-p1 p-2'><Link to = "/contato">solicitar orçamento</Link></li>
 
               </ul>
             </div>    

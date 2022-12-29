@@ -22,7 +22,7 @@ const Carrosel = ({...props}) => {
        
       </div>
       <button
-        className="carousel-control-prev"
+        className="carousel-control-prev cor-b-6 "
         type="button"
         data-bs-target="#carouselExampleRide"
         data-bs-slide="prev"
@@ -31,12 +31,12 @@ const Carrosel = ({...props}) => {
         <span className="visually-hidden">Previous</span>
       </button>
       <button
-        className="carousel-control-next"
+        className="carousel-control-next cor-b-6"
         type="button"
         data-bs-target="#carouselExampleRide"
         data-bs-slide="next"
       >
-        <span className="carousel-control-next-icon" aria-hidden="true"></span>
+        <span className="carousel-control-next-icon " aria-hidden="true"></span>
         <span className="visually-hidden">Next</span>
       </button>
     </div>
